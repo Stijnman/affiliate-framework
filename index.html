@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Product Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-title {
+            font-size: 18px;
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        .product-description {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin: 0 0 10px 0;
+        }
+        .product-price {
+            font-size: 20px;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .affiliate-link {
+            display: block;
+            text-align: center;
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+        .affiliate-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Featured Products</h1>
+        <div class="product-grid">
+            
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Example Product" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">Example Product</h2>
+                <p class="product-description">This is an example product for your affiliate site.</p>
+                <p class="product-price">$29.99</p>
+                <a href="product/1.html" class="affiliate-link">View Product</a>
+            </div>
+        </div>
+    
+        </div>
+    </div>
+</body>
+</html>
