@@ -4,7 +4,35 @@
     "name": "Example Product",
     "description": "This is an example product for your affiliate site.",
     "price": "$29.99",
-    "affiliate_link": "https://example.com/your-affiliate-link",
-    "image_url": "https://via.placeholder.com/300"
+    "affiliate_link": "https://example.com/your-affiliate-link?utm_source=affiliate_framework&utm_medium=product_page&utm_campaign=example_product",
+    "image_url": "https://via.placeholder.com/300",
+    "categories": ["Electronics", "Gadgets"],
+    "tags": ["new", "popular"],
+    "rating": 4.5,
+    "review_count": 128
+  },
+  {
+    "id": "2",
+    "name": "Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "price": "$89.99",
+    "affiliate_link": "https://example.com/wireless-headphones?utm_source=affiliate_framework&utm_medium=product_page&utm_campaign=wireless_headphones",
+    "image_url": "https://via.placeholder.com/300/0000FF/808080?text=Headphones",
+    "categories": ["Electronics", "Audio"],
+    "tags": ["sale", "best-seller"],
+    "rating": 4.7,
+    "review_count": 256
+  },
+  {
+    "id": "3",
+    "name": "Smart Watch",
+    "description": "Feature-rich smart watch with health tracking.",
+    "price": "$199.99",
+    "affiliate_link": "https://example.com/smart-watch?utm_source=affiliate_framework&utm_medium=product_page&utm_campaign=smart_watch",
+    "image_url": "https://via.placeholder.com/300/FF0000/FFFFFF?text=Watch",
+    "categories": ["Electronics", "Wearables"],
+    "tags": ["new", "tech"],
+    "rating": 4.3,
+    "review_count": 64
   }
 ]
